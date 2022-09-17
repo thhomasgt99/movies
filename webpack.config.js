@@ -6,9 +6,9 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    //publicPath: '/' //porque ruta arranca| esta line debe estar comentada mientras estemos en desarrollo, en produccion si deve estar activa
+    publicPath: '/' //porque ruta arranca| esta line debe estar comentada mientras estemos en desarrollo, en produccion si deve estar activa
     //si esta liena esta activa cuando corramos el proyecto entonces tomara los archivos de las carpetas dist o build, esto es el funcionaiento necesario para produccion pero no para desarrollo por lo tanto deve estar comentada en ese modo
     //en ambos modos utilizara node_modules para utilizar las dependencias de produccion
   },
