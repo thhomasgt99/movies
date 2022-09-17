@@ -1,0 +1,23 @@
+.titleGenero {
+	text-align: center;
+	font-size: 3rem;
+	padding-top: 5rem;
+	margin-bottom: 5rem;
+	color: #ffffff;
+}
+.list-generos{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 400px));
+	justify-items: center;
+	justify-content: center;
+	list-style: none;
+	li {
+		p {
+			text-align: center;
+			font-size: 2rem;
+			margin-top: 1rem;
+			margin-bottom: 5rem;
+			color: #ffffff;
+		}
+	}
+}

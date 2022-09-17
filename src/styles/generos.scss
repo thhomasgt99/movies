@@ -1,0 +1,23 @@
+.titleGeneros {
+	color: #ffffff;
+	font-size: 2.5rem;
+	text-align: center;
+	margin-top: 10rem;
+	margin-bottom: 5rem;
+}
+.generos {
+	display: grid;
+	justify-items: center;
+    justify-content: center;
+	grid-template-columns: repeat(auto-fit, minmax(50px, 100px));
+	justify-content: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 10rem;
+	a {
+		margin-top: 2rem;
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 1.2rem;
+	}
+}

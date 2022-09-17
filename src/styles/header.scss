@@ -1,0 +1,44 @@
+header {
+	// width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(115, 113, 113);
+	height: 6rem;
+	color: rgb(255, 255, 255);
+	.logo {
+		width: 17rem;
+	}
+	ul {
+		display: flex;
+		list-style: none;
+
+		li {
+			margin-left: 6%;
+			font-size: 1rem;
+		}
+	}
+	nav {
+		display: flex;
+		input {
+			margin-left: 4em;
+			border-radius: 15px;
+			color: white;
+			border: solid 1px rgb(125, 125, 125);
+			background-color: rgb(148, 148, 148);
+		}
+		::placeholder { color: rgb(61, 61, 61); }
+		button {
+			margin-left: 2%;
+			width: 12rem;
+			height: 2.5rem;
+			border-radius: 15px;
+			border: none;
+		}
+		.button-blue {
+			background-color: rgb(19, 124, 244);
+			color: white;
+		}
+	}
+	
+}

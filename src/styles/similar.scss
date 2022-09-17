@@ -1,0 +1,22 @@
+.similares {
+	display: flex;
+	overflow: scroll;
+	list-style: none;
+	&::-webkit-scrollbar {
+    display: none;
+  }
+	li {
+		margin-right: 5rem;
+		a {
+			text-decoration: none;
+			color: #ffffff;
+			text-align: center;
+			font-size: 2rem;
+			img {
+				width: 15rem;
+			}
+		}
+	}
+
+
+}

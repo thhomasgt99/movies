@@ -1,0 +1,27 @@
+@import'header';
+@import'main';
+@import'tendencias';
+@import'generos';
+@import'genero';
+@import'similar';
+@import'oneMovie';
+
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	@media (min-width: 550px) {
+		font-size: 1rem;
+	}
+}
+
+body {
+	background-color: #080f28;
+	img {
+		border-radius: 5%;
+	}
+}
