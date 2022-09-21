@@ -26,4 +26,5 @@
 - sass-loader        		 	-> Loader de sass para que trate webpack estos formatos
 
 - copy-webpack-plugin     -> Nos ayudará a copiar los archivos de la carpeta /public a la carpeta de nuestro proyecto compilado
+##### Nota: en este proyecto esta mal la integracion con git para hacer el deploy por lo tando No sirve pero para enviar a firebase el proyecto podemos hacerlo con el comano de despliegue directo a firebase que es 'firebase deploy', esto ya deploya
 ##### Nota: ejecutar cada vez que vaya a mandar commits a firebase antes -> npm run build,  pq no lo integre a los yml y recordar que antes del build la regla publicPath: '/' deve estar descomentada. Una vez se haya hecho esto mandar los cambios al repositorio
