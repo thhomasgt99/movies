@@ -9,12 +9,16 @@ const api = axios.create({
 })
 
 const useInitialSate = ()=>{
+	const [ busqueda, setBusqueda ] = useState()
+
 	async function Fetch(faltante){
 		const { data } = await api(faltante)
 		return data
 	}
 	return {
 		Fetch,
+		busqueda,
+		setBusqueda
 	}
 }
 

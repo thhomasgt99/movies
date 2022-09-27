@@ -15,29 +15,29 @@ header {
 
 		li {
 			margin-left: 6%;
-			font-size: 1rem;
+			font-size: 2rem;
+			a {
+				color: white;
+			}
 		}
 	}
 	nav {
 		display: flex;
 		input {
 			margin-left: 4em;
+			width: 15rem;
 			border-radius: 15px;
+			height: 2rem;
 			color: white;
 			border: solid 1px rgb(125, 125, 125);
 			background-color: rgb(148, 148, 148);
 		}
 		::placeholder { color: rgb(61, 61, 61); }
 		button {
-			margin-left: 2%;
-			width: 12rem;
-			height: 2.5rem;
+			width: 70px;
+			height: 2rem;
 			border-radius: 15px;
 			border: none;
-		}
-		.button-blue {
-			background-color: rgb(19, 124, 244);
-			color: white;
 		}
 	}
 	
